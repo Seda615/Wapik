@@ -19,7 +19,7 @@ body {
 .container {
     max-width: 1110px;
     width: 100%;
-    padding: 0 15px;
+    padding: 0 20px;
     box-sizing: border-box;
     margin: 0 auto;
 }
@@ -31,7 +31,6 @@ body {
 
 
 .header {
-    max-width: 1200px;
     width: 100%;
     display: flex;
     margin: auto;
@@ -151,12 +150,13 @@ body {
 
     .navbar-links {
         display: none;
-        width: 98%;
+        width: 100%;
         flex-direction: column;
         align-items: center;
         position: relative;
         top: 45px;
         right: 1px;
+        height: 240px;
     }
 
     .navbar-links.active {
@@ -313,7 +313,7 @@ hr {
 }
 
 .plan-column {
-    padding: 0 15px;
+    padding: 0 10px;
     box-sizing: border-box;
     max-width: 360px;
 }
