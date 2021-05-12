@@ -5,7 +5,6 @@ body {
 }
 
 .container {
-    font-family: Roboto, sans-serif;
     max-width: 1110px;
     width: 100%;
     margin: 0 auto;
@@ -18,10 +17,11 @@ body {
 }
 
 .head {
-    background-size: cover;
     position: relative;
-    background: url("../images/Layer 14.png") no-repeat center;
+    background-image: url("../images/Layer 14.png");
+    background-repeat: no-repeat;
     min-height: 660px;
+    background-size: cover;
 }
 
 .masthead {
@@ -66,7 +66,7 @@ body {
 }
 
 .nav-bar {
-    margin: 2% auto;
+    margin: 21px auto;
     max-width: 460px;
     width: 100%;
 }
@@ -79,14 +79,13 @@ body {
 
 .link {
     text-decoration: none;
-    margin: 15px;
+    margin: 15px 30px 15px 15px;
     padding: 4px;
     font-size: 13px;
     line-height: 21px;
     color: #ffffff;
     font-weight: 400;
     text-align: right;
-    margin-right: 30px;
 }
 
 .toggle-button {
@@ -225,7 +224,6 @@ body {
     line-height: 21px;
     color: #ffffff;
     font-weight: 400;
-    font-family: "Roboto", sans-serif;
     animation-name: head;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -256,7 +254,6 @@ body {
     line-height: 24px;
     color: #ffffff;
     font-weight: 400;
-    font-family: "Roboto", sans-serif;
     animation-name: text;
     animation-duration: 4s;
     animation-iteration-count: infinite;
@@ -312,7 +309,6 @@ body {
     line-height: 20px;
     color: #0f5f5c;
     font-weight: 300;
-    font-family: "Roboto", sans-serif;
     text-align: center;
 }
 
@@ -321,7 +317,6 @@ body {
     line-height: 20px;
     color: #83a7a5;
     font-weight: 400;
-    font-family: "Roboto", sans-serif;
     text-align: center;
 }
 
@@ -385,7 +380,6 @@ body {
     line-height: 20px;
     color: #0f5f5c;
     font-weight: 400;
-    font-family: "Roboto", sans-serif;
 }
 
 .four-idea p {
@@ -394,7 +388,6 @@ body {
     line-height: 22px;
     color: #83a7a5;
     font-weight: 400;
-    font-family: "Roboto", sans-serif;
 }
 
 .phone {
@@ -713,7 +706,6 @@ hr {
     line-height: 22px;
     color: #0f5f5c;
     font-weight: 300;
-    font-family: "Roboto", sans-serif;
 }
 
 .download-column p {
@@ -721,7 +713,6 @@ hr {
     line-height: 22px;
     color: #83a7a5;
     font-weight: 400;
-    font-family: "Roboto", sans-serif;
 }
 
 .download-btn {

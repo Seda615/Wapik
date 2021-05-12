@@ -2,7 +2,10 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Roboto, sans-serif;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
 }
 
 .pricing-head {
@@ -16,7 +19,7 @@ body {
 .container {
     max-width: 1110px;
     width: 100%;
-    padding: 0 20px;
+    padding: 0 15px;
     box-sizing: border-box;
     margin: 0 auto;
 }
@@ -51,7 +54,7 @@ body {
 }
 
 .nav-bar {
-    margin: 2% auto;
+    margin: 21px auto;
     width: 100%;
     max-width: 460px;
     color: #83a7a5;
@@ -67,12 +70,11 @@ body {
     text-decoration: none;
     padding: 4px;
     font-size: 13px;
-    margin: 15px;
+    margin: 15px 30px 15px 15px;
     line-height: 21px;
     color: #83a7a5;
     font-weight: 400;
     text-align: right;
-    margin-right: 30px;
 }
 
 .link:hover {
@@ -149,7 +151,7 @@ body {
 
     .navbar-links {
         display: none;
-        width: 100%;
+        width: 98%;
         flex-direction: column;
         align-items: center;
         position: relative;
@@ -312,6 +314,8 @@ hr {
 
 .plan-column {
     padding: 0 15px;
+    box-sizing: border-box;
+    max-width: 360px;
 }
 
 .plan-column li {
@@ -382,7 +386,6 @@ hr {
     line-height: 22px;
     color: #0f5f5c;
     font-weight: 300;
-    font-family: "Roboto", sans-serif;
 }
 
 .download-column p {
@@ -390,7 +393,6 @@ hr {
     line-height: 22px;
     color: #83a7a5;
     font-weight: 400;
-    font-family: "Roboto", sans-serif;
 }
 
 .download-btn {

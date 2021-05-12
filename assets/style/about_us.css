@@ -3,6 +3,9 @@
 body {
     margin: 0;
     padding: 0;
+}
+
+* {
     font-family: Roboto, sans-serif;
 }
 
@@ -62,10 +65,8 @@ body {
     margin: 0 auto;
 }
 
-
-
 .nav-bar {
-    margin: 2% auto;
+    margin: 21px auto;
     max-width: 460px;
     width: 100%;
 }
@@ -78,14 +79,13 @@ body {
 
 .link {
     text-decoration: none;
-    margin: 15px;
+    margin: 15px 30px 15px 15px;
     padding: 4px;
     font-size: 13px;
     line-height: 21px;
     color: #ffffff;
     font-weight: 400;
     text-align: right;
-    margin-right: 30px;
 }
 
 .toggle-button {
@@ -259,7 +259,6 @@ body {
     line-height: 20px;
     color: #0f5f5c;
     font-weight: 300;
-    font-family: "Roboto", sans-serif;
 }
 
 .title p {
@@ -268,7 +267,6 @@ body {
     line-height: 22px;
     color: #83a7a5;
     font-weight: 400;
-    font-family: "Roboto", sans-serif;
 }
 
 .title hr {
@@ -402,7 +400,6 @@ body {
 }
 
 .download-column h3 {
-
     font-size: 28px;
     line-height: 22px;
     color: #ffffff;
@@ -458,13 +455,6 @@ body {
 .footer-column-right li {
     margin: 5px;
 }
-
-
-
-
-
-
-
 
 
 
